@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
     <title>Sign Up Page - NSSC</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="signup.css">
     <link rel="icon" href="./Images/spatslogo.jpg">
 
 </head>
@@ -20,10 +20,15 @@
             <br>
             <input type="Address" class="input-box" placeholder="your Address" required>
             <br>
-            <input type="password" class="input-box" placeholder="Password" required>
+            <input type="password" class="input-box" placeholder="Password" id="show" required>
+            
             <br>
             <input type="password" class="input-box" placeholder="Confirm Password" required>
+            <br>
+            <input type="checkbox" id="box" onclick="myFunction()"> <text id="text">Show Password</text>
             <br><br>
+            
+            
 
             <div class="button"><button type="button" class="signup-btn">Create Account</button></div>
             <hr>
@@ -36,6 +41,17 @@
 
         </form>
     </div>
+    <script type="text/javascript">
+        function myFunction(){
+            var show = document.getElementsById('show');
+            if (show.type=='password') {
+                show.type='text';
+            }
+            else{
+                show.type='password';
+            }
+        }
+    </script>
 
 
 
