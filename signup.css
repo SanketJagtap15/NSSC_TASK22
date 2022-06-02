@@ -5,6 +5,8 @@ body{
     /* background-image: url("images/KGP\ img.webp"); */
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Khand:wght@600&display=swap');
+
 /* #bg{
     background-image: url("./images/KGP\ img\ \(1\).png")
 } */
@@ -23,15 +25,17 @@ body{
 }
 
 .sign-up-form h1{
-    font-family: cookie;
+    font-family: 'Khand', sans-serif;
     margin-bottom: 30px;
+    letter-spacing: 1px;
+
 }
 
 .input-box
 {
     border-radius: 8px;
     padding: 10px;
-    margin: 10px 0;
+    margin: 9px 0;
     width: 95%;
     border: 1px solid #999;
     outline: none;
@@ -82,4 +86,18 @@ img
     margin-left: 120px;
     margin-top: -45px;
 }
+#in{
+    color: #3e9ae5;
+}
+#up{
+    color: #2e98df;
+}
 
+#text{
+    text-align: left;
+    margin-right: 10.6rem;
+    color: rgb(121, 120, 120);
+    font-weight: 400;
+    font-size: 0.9rem;
+    margin-top: 2rem;
+}
